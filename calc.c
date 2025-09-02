@@ -19,7 +19,7 @@ int main()
 {
     int n,a,b,c;
     do {
-        printf("Enter 1 for '+'\nEnter 2 for '-'\nEnter 3 for '*'\nEnter 4 for '/'\nEnter 5 for '%'\nEnter 0 for 'Exit'\n");
+        printf("\n--- : Calculator Menu : ---\nEnter 1 for '+'\nEnter 2 for '-'\nEnter 3 for '*'\nEnter 4 for '/'\nEnter 5 for '%'\nEnter 0 for 'Exit'\n");
         printf("\nChoose Your Choice :- ");
         scanf("%d",&n);
         if(n==0 || n>5) {
